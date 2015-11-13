@@ -1,0 +1,19 @@
+import os
+
+DEBUG = False
+
+HTTP_PORT = 19812
+CLIENT_ID = "<evesso-clientid>"
+SECRET_KEY = "<evesso-secret>"
+CALLBACK_URL = "http://<youriporhostname>:%d/callback" % HTTP_PORT
+AUTHORIZATION_BASE_URL = "https://login.eveonline.com/oauth/authorize"
+TOKEN_URL = "https://login.eveonline.com/oauth/token"
+VERIFY_URL = "https://login.eveonline.com/oauth/verify"
+
+
+# if you don't do https (use it)
+#os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
+
+
+DISCORD_EMAIL = 'yourmail@gmail.com'
+DISCORD_PASSWORD = 'secret!!'
